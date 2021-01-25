@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-geenee",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.9.0",
+    "@typescript-eslint/parser": "2.9.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint": "6.7.1",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-plugin-arca": "0.9.5",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-simple-import-sort": "5.0.0"
+  }
+}

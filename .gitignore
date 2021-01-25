@@ -1,0 +1,18 @@
+node_modules
+dist
+npm-debug.*
+.DS_Store
+.idea
+.env
+lerna-debug.log
+yarn-error.log
+.favorites.json
+codemods
+.eslintcache
+.docker-sync
+.garden
+
+
+# Ignore DevSpace cache and log folder
+.devspace/
+error.log
