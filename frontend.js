@@ -12,7 +12,7 @@ module.exports = {
     },
 
     rules: {
-        "simple-import-sort/sort": "error",
+        'simple-import-sort/imports': 'error',
         "@typescript-eslint/ban-ts-ignore": "off",
         'jsx-a11y/anchor-is-valid' : 'off',
         'jsx-a11y/click-events-have-key-events':   'off',
