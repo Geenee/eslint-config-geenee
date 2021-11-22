@@ -12,7 +12,6 @@ module.exports = {
     },
 
     rules: {
-        'simple-import-sort/imports': ['error', 4],
         "@typescript-eslint/ban-ts-ignore": "off",
         'jsx-a11y/anchor-is-valid' : 'off',
         'jsx-a11y/click-events-have-key-events':   'off',
@@ -25,6 +24,7 @@ module.exports = {
         'react/prop-types':                        'off',
         'react/sort-comp':                         'off',
         'react/no-array-index-key':                'off',
+        'simple-import-sort/imports':              ['error'],
         'react/jsx-indent':                        ['error', 4],
         'react/jsx-indent-props':                  ['error', 4],
         'react/jsx-filename-extension':            ['error', {
