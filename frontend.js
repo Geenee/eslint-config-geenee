@@ -32,7 +32,8 @@ module.exports = {
         'react/jsx-curly-spacing':                 ['error', {
             'when':     'always',
             'children': true
-        }]
+        }],
+        'react/require-default-props': 'off'
     },
 
     overrides: [
