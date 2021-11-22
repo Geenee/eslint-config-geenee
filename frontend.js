@@ -24,6 +24,7 @@ module.exports = {
         'react/prop-types':                        'off',
         'react/sort-comp':                         'off',
         'react/no-array-index-key':                'off',
+        "@typescript-eslint/ban-ts-comment":       "off",
         'simple-import-sort/imports':              ['error'],
         'react/jsx-indent':                        ['error', 4],
         'react/jsx-indent-props':                  ['error', 4],
