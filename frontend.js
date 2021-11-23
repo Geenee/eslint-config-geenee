@@ -12,6 +12,7 @@ module.exports = {
     },
 
     rules: {
+        '@typescript-eslint/ban-ts-comment' : 'off',
         'camelcase': 'off',
         'no-use-before-define': 'off',
         '@typescript-eslint/no-use-before-define': ['error'],
