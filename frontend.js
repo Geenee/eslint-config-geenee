@@ -12,6 +12,8 @@ module.exports = {
     },
 
     rules: {
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': ['error'],
         '@typescript-eslint/ban-ts-ignore': 'off',
         'jsx-a11y/anchor-is-valid' : 'off',
         'jsx-a11y/click-events-have-key-events':   'off',
