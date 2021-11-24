@@ -12,6 +12,7 @@ module.exports = {
     },
     plugins: ["simple-import-sort"],
     rules: {
+        'simple-import-sort/sort' : 'error',
         'simple-import-sort/imports': 'error',
         'simple-import-sort/exports': 'error',
         '@typescript-eslint/ban-ts-comment' : 'off',
