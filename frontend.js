@@ -12,6 +12,7 @@ module.exports = {
     },
 
     rules: {
+        'simple-import-sort/imports' : 'off',
         '@typescript-eslint/ban-ts-comment' : 'off',
         'camelcase': 'off',
         'no-use-before-define': 'off',
