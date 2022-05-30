@@ -14,7 +14,9 @@ module.exports = {
     rules: {
         'no-tabs': 'warn',
         'no-param-reassign': 'warn',
-        'simple-import-sort/sort' : 'error',
+        "arca/no-default-export": "off",
+        "simple-import-sort/imports": "error",
+        "simple-import-sort/exports": "error",
         '@typescript-eslint/ban-ts-comment' : 'off',
         'camelcase': 'off',
         'no-use-before-define': 'off',
