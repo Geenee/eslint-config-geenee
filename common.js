@@ -90,7 +90,7 @@ module.exports = {
         'arca/import-align':                 ['error', {
             'collapseExtraSpaces': true
         }],
-        'simple-import-sort/sort':           ['error', {
+        "simple-import-sort/imports": ['error', {
             'groups': [
                 [
                     '^\\u0000',
@@ -106,6 +106,7 @@ module.exports = {
                     '^.+\\.s?css$'
                 ]
             ]
-        }]
+        }],
+        "simple-import-sort/exports": "error",
     }
 };
